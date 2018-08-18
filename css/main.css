@@ -1,0 +1,578 @@
+/*start my framework*/
+*
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	font-family: Arial,Tahoma;
+	text-transform: capitalize;
+}
+.container
+{
+	width: 1200px ;
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+}
+.overlay
+{
+	background-color: rgba(49,55,61,.9);
+	height: 100%;
+	width: 100%;
+}
+.table
+{
+	height: 100%;
+	display: table;
+}
+.table-row
+{
+	display: table-row;
+}
+.hidden{display: none}
+.container-float{display: inline-block;}
+.clear-fix{clear: both;}
+.float-left{float: left;}
+.float-right{float: right}
+.text-center{text-align: center;}
+.upper{text-transform: uppercase;}
+.main-color{color: #f7600e}
+.main-bg{background-color: #f7600e}
+/*end my framework*/
+/*start myheader*/
+.myheader
+{
+	background: url('../image//8.jpg') center center no-repeat;
+	position: relative;
+	color: #fff;
+	min-height: 100px;
+}
+.myheader .overlay
+{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(49,55,61,.9);
+}
+.myheader .overlay .mynav
+{
+	padding: 20px 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+body > header > div > div > nav > span:nth-child(1) > span
+{
+	font-size: 24px;
+	font-weight: bold
+}
+.myheader .overlay .mynav .links
+{
+	float: right;
+}
+.myheader .overlay .mynav .links i
+{
+	display: inline-block;
+	margin-left: 5px;
+}
+.myheader .overlay .intro 
+{
+	display: table-cell;
+	vertical-align:middle;
+}
+.myheader .overlay .intro h1
+{
+	margin: 0;
+	font-weight: 800;		
+}
+.myheader .overlay .intro p
+{
+	margin: 23px 0 50px;
+	line-height: 1.9;
+	font-size: 20px;
+	color: #e2e2e2;
+}
+.myheader .myhedbutton button
+{
+    background: transparent;
+    width: 180px;
+    padding: 10px 0;
+    color: #FFF;
+    border: 1px solid #909090;
+	margin: 0px 10px;
+	border-radius: 10px;
+	font-size: 14px;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+}
+.myhedbutton button:hover
+{
+	background-color: #f7600e;
+	border-color: #f7600e;
+		
+}
+.myheader .arrow
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+}
+.myheader .arrow i
+{
+	width: 33px;
+	height: 33px;
+	border: 2px solid #7b7b7b;
+	padding: 0px;
+	border-radius: 50%;
+	line-height: 33px;
+	cursor: pointer;
+}
+/*end myheader*/
+/*start global styling*/
+ .myheader
+{
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+}
+.myheader .myhedbutton button
+{
+	transition: all .8s ease-in-out;
+	-webkit-transition: all .8s ease-in-out;
+	-moz-transition: all .8s ease-in-out;
+	-o-transition: all .8s ease-in-out;
+	-ms-transition: all .8s ease-in-out;
+}
+/*start features*/
+.features
+{
+	padding: 80px 0;
+	
+}
+.features .fat
+{
+	width: 22%;
+	margin-right: 4%;
+}
+.features .fat i
+{
+	color: #f7600e;
+	border: 1px solid #d1c7c7;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+	text-align: center;
+    border-radius: 50%;
+	transition: all .8s ease-in-out;
+	-webkit-transition: all 1.2s ease-in-out;
+	-moz-transition: all .8s ease-in-out;
+	-o-transition: all .8s ease-in-out;
+	-ms-transition: all .8s ease-in-out;
+}
+.features .fat i:hover
+{
+	background-color: #f7600e;
+	color: #fff;
+	transform: rotate(360deg)
+}
+.features .fat h3
+{
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #505050;
+}
+.features .fat p
+{
+	line-height: 2;
+	color: #888;
+	margin-top: 30px;
+}
+.features .fat:last-child
+{
+	margin-right: 0;
+}
+/*end features**/
+/*start subscribe*/
+.subscribe
+{
+	background: url("../image/6.jpg") center center no-repeat fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	color: #fff;
+}
+.subscribe form
+{
+	padding: 100px 0;
+/*	width: 400px;*/
+	margin: auto;
+}
+.subscribe form input
+{
+	padding: 6px ;
+	width: 316px;
+	font-size: 20px;
+	border-radius: 10px;
+	border: none;
+	position: relative;
+	top: 1px;
+	
+}
+::-webkit-input-placeholder
+{
+	font-size: 16px;
+}
+.subscribe form button
+{
+	padding: 10px;
+	width: 220px;
+	background-color: #f7600e;
+	border: none;
+	color: #fff;
+	border-radius: 10px;
+	margin-left: 15px;
+	font-size: 14px;;
+}
+/*end subscribe*/
+/*start our work */
+.ourwork
+{
+	margin-top: 50px;
+	padding: 50px 0px;
+}
+.ourwork h2,.our-team h2,.contact-me h2
+{
+	font-size: 35px;
+	font-weight: 500;
+	margin-bottom: 0
+}
+.ourwork h2 ~ p,.our-team h2 ~ p,.contact-me h2 ~ p
+{
+	line-height: 1.9;
+	margin: 10px 0 40px;
+	
+}
+.ourwork .item-project .p1 
+{
+	width: 30%;
+	margin-left: 1.3333%;
+	margin-right: 1.3333%;
+	margin-bottom: 19px;
+	position: relative;
+	line-height: 0;
+	
+}
+.ourwork .item-project .p1 img
+{
+	max-width: 100%;
+	border-radius: 10px
+}
+.ourwork .item-project .p1 .over
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	background-color: rgba(247,96,14,.8);
+	color: #FFF;
+	line-height: 1.7;
+	display: none;
+}
+.ourwork .item-project .p1 .over h4
+{
+	font-size: 24px;
+	margin-top: 40px;
+	margin-bottom: 0
+}
+.ourwork .item-project .p1 .over button
+{
+	background-color: transparent;
+	border: 1px solid #FFF;
+	color: #fff;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 10px;
+	width: 180px;
+	transition: all .8s ease-in-out;
+	-webkit-transition: all .8s ease-in-out;
+	-moz-transition: all .8s ease-in-out;
+	-o-transition: all .8s ease-in-out;
+	-ms-transition: all .8s ease-in-out;
+}
+.ourwork .item-project .p1 .over button:hover
+{
+	background-color: #FFF;
+	color: #f7600e;
+}
+.disabled
+{
+	cursor: not-allowed;
+}
+.ourwork .show-m
+{
+	padding: 10px;
+    width: 180px;
+    border: 1px solid #cCc;
+    background: transparent;
+    border-radius: 10px;
+    margin-top: 30px;
+	color: #555;
+	transition: all .8s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .8s ease-in-out;
+	-o-transition: all .8s ease-in-out;
+	-ms-transition: all .8s ease-in-out;
+}
+.ourwork .show-m:hover,.disabled
+{
+	background-color: #f7600e;
+	border-color: #f7600e;
+	
+	
+}
+/*end our work*/
+/*start tesmonail*/
+.testmonail
+{
+	background: url("../image/2.jpg") center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	color: #fff;
+	margin-top: 40px;
+}
+.testmonail .overlay
+{
+	padding: 60px 0px;
+    height: 427px;
+}
+.testmonail .testing
+{
+	
+	width: 100%;
+	height: 427px;
+}
+.testmonail .client img
+{
+	width: 100px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.testmonail .client p
+{
+	line-height: 2;
+	margin-bottom: 30px;
+	min-height: 125px;
+	font-style: italic;
+	color: #e6d3d3
+		
+}
+.testmonail .left
+{
+	position: absolute;
+	top :34%;
+	left: 0;
+	color: #999;
+	cursor: pointer;
+	transition: all .8s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .8s ease-in-out;
+	-o-transition: all .8s ease-in-out;
+	-ms-transition: all .8s ease-in-out;		
+}
+.testmonail .right
+{
+	position: absolute;
+	top :34%;
+	right: 0;
+	color: #999;
+	cursor: pointer;
+	transition: all .8s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .8s ease-in-out;
+	-o-transition: all .8s ease-in-out;
+	-ms-transition: all .8s ease-in-out;
+}
+.testmonail .left:hover,.testmonail .right:hover
+{
+	color: #f7600e;
+}
+/*end testmionail*/
+/* starr our team*/
+.our-team
+{
+	padding: 40px 0px;
+}
+.our-team h2
+{
+	font-weight: normal;
+	font-size: 25px;
+}
+.our-team .number
+{
+	width: 22%;
+	margin-left: 2%;
+	margin-right: 2%;
+	color: #888;
+		
+}
+.our-team .number:first-child
+{
+	margin-left: 0px;
+}
+.our-team .number:last-child
+{
+	margin-right: 0px;
+}
+.our-team .number img
+{
+	max-width: 100%;
+	filter: gray;
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+	-ms-filter: grayscale(1);	
+	border-bottom: 5px solid transparent;
+}
+.our-team .number:hover
+{
+	color: #555;
+}
+.our-team .number:hover img
+{
+	filter: none;
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-o-filter: grayscale(0);
+	-ms-filter: grayscale(0);
+	border-color: #f7600e
+}
+.our-team .number .scoial i,.contact-me .overlay .mycontact .icon-contact i
+{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #c2c5c7  ;
+	line-height: 25px;
+	color: #FFF;
+	
+}
+.our-team .number:hover .scoial .fa-facebook,.contact-me .overlay .mycontact .icon-contact .fa-facebook
+{
+	background-color: #3b5998;
+}
+.our-team .number:hover .scoial .fa-twitter,.contact-me .overlay .mycontact .icon-contact .fa-twitter
+{
+	background-color: #55acee;
+}
+.our-team .number:hover .scoial .fa-google-plus,.contact-me .overlay .mycontact .icon-contact .fa-google-plus
+{
+	background-color: #dc4e41;
+}
+.our-team .number p
+{
+	font-size: 15px;
+	line-height: 1.7
+}
+/*end our team*/
+/*start contact me*/
+.contact-me
+{
+	margin-top: 50px ;
+	background: url("../image/114hm.jpg") center center fixed;
+	background-size: cover;
+	color: #F1f1f1
+	
+}
+.contact-me .overlay
+{
+	padding: 50px 0;
+}
+.contact-me .overlay p
+{
+	margin-top: 30px;
+}
+.contact-me .overlay .mycontact
+{
+	width: 60%;
+	margin: auto;
+	
+}
+.contact-me .overlay .mycontact input[type ='text'],.contact-me .overlay .mycontact input[type ='email']
+{
+/*	display: block;*/
+	width: 40%;
+	height: 34px;
+	border-radius: 10px;
+	border: none;
+	padding-left: 10px;
+	
+}
+.contact-me .overlay .mycontact input[type ='email']
+{
+	margin-right: 19%;
+}
+.contact-me .overlay .mycontact .container-float,footer .container-float
+{
+	width: 100%;
+}
+.contact-me .overlay .mycontact textarea
+{
+	display: block;
+	width: 99.5%;
+	resize: none;
+	margin-top: 48px;
+	height: 140px;
+	border-radius: 10px;
+	margin-bottom: 40px;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+.contact-me .overlay .mycontact input[type="button"]
+{
+	text-align: center;
+	width: 170px ;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #f7600e;
+	color: #FFF;
+	border: none;
+}
+.contact-me .overlay .mycontact .icon-contact
+{
+	display: inline-block;
+	text-align: right;
+	padding-right: 11px;
+	padding-top:11px;
+	
+}
+/*end contact me*/
+/*start footer*/
+footer
+{
+	background-color: rgb(38, 46, 53); 
+	padding: 30px 0;
+}
+/*end footer*/
+/*end global styling*/
